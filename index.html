@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Files</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-4">
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="mb-0">My Files</h4>
+            <div class="d-flex gap-2 align-items-center">
+                <div class="search-box">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <button class="btn-icon">
+                    <i class="bi bi-three-dots-vertical"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Folders Grid -->
+        <div class="row g-4 mb-5">
+            <!-- Design Folder -->
+            <div class="col-md-4">
+                <div class="folder-card">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="d-flex gap-3">
+                            <i class="bi bi-folder-fill text-warning"></i>
+                            <div>
+                                <h6 class="mb-1">Design</h6>
+                                <small class="text-muted">12 Files</small>
+                            </div>
+                        </div>
+                        <button class="btn-icon">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                    </div>
+                    <div class="storage-info mt-3">
+                        <small class="text-muted">6GB</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Development Folder -->
+            <div class="col-md-4">
+                <div class="folder-card">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="d-flex gap-3">
+                            <i class="bi bi-folder-fill text-warning"></i>
+                            <div>
+                                <h6 class="mb-1">Development</h6>
+                                <small class="text-muted">20 Files</small>
+                            </div>
+                        </div>
+                        <button class="btn-icon">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                    </div>
+                    <div class="storage-info mt-3">
+                        <small class="text-muted">8GB</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project A Folder -->
+            <div class="col-md-4">
+                <div class="folder-card">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="d-flex gap-3">
+                            <i class="bi bi-folder-fill text-warning"></i>
+                            <div>
+                                <h6 class="mb-1">Project A</h6>
+                                <small class="text-muted">06 Files</small>
+                            </div>
+                        </div>
+                        <button class="btn-icon">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                    </div>
+                    <div class="storage-info mt-3">
+                        <small class="text-muted">2GB</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Admin Folder -->
+            <div class="col-md-4">
+                <div class="folder-card">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="d-flex gap-3">
+                            <i class="bi bi-folder-fill text-warning"></i>
+                            <div>
+                                <h6 class="mb-1">Admin</h6>
+                                <small class="text-muted">08 Files</small>
+                            </div>
+                        </div>
+                        <button class="btn-icon">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                    </div>
+                    <div class="storage-info mt-3">
+                        <small class="text-muted">4GB</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sketch Design Folder -->
+            <div class="col-md-4">
+                <div class="folder-card">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="d-flex gap-3">
+                            <i class="bi bi-folder-fill text-warning"></i>
+                            <div>
+                                <h6 class="mb-1">Sketch Design</h6>
+                                <small class="text-muted">12 Files</small>
+                            </div>
+                        </div>
+                        <button class="btn-icon">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                    </div>
+                    <div class="storage-info mt-3">
+                        <small class="text-muted">6GB</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Applications Folder -->
+            <div class="col-md-4">
+                <div class="folder-card">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="d-flex gap-3">
+                            <i class="bi bi-folder-fill text-warning"></i>
+                            <div>
+                                <h6 class="mb-1">Applications</h6>
+                                <small class="text-muted">20 Files</small>
+                            </div>
+                        </div>
+                        <button class="btn-icon">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                    </div>
+                    <div class="storage-info mt-3">
+                        <small class="text-muted">8GB</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Files -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h5>Recent Files</h5>
+            <a href="#" class="text-decoration-none">View All</a>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date modified</th>
+                        <th>Size</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-file-earmark-text text-primary"></i>
+                                index.html
+                            </div>
+                        </td>
+                        <td>12-10-2020, 09:45</td>
+                        <td>09 KB</td>
+                        <td class="text-end">
+                            <button class="btn-icon">
+                                <i class="bi bi-three-dots"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-file-earmark-zip text-warning"></i>
+                                Project-A.zip
+                            </div>
+                        </td>
+                        <td>11-10-2020, 17:05</td>
+                        <td>115 KB</td>
+                        <td class="text-end">
+                            <button class="btn-icon">
+                                <i class="bi bi-three-dots"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-file-earmark-image text-success"></i>
+                                Img-1.jpeg
+                            </div>
+                        </td>
+                        <td>11-10-2020, 13:26</td>
+                        <td>86 KB</td>
+                        <td class="text-end">
+                            <button class="btn-icon">
+                                <i class="bi bi-three-dots"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-file-earmark-text text-primary"></i>
+                                update list.txt
+                            </div>
+                        </td>
+                        <td>10-10-2020, 11:32</td>
+                        <td>08 KB</td>
+                        <td class="text-end">
+                            <button class="btn-icon">
+                                <i class="bi bi-three-dots"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-folder-fill text-warning"></i>
+                                Project B
+                            </div>
+                        </td>
+                        <td>10-10-2020, 10:51</td>
+                        <td>72 KB</td>
+                        <td class="text-end">
+                            <button class="btn-icon">
+                                <i class="bi bi-three-dots"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
